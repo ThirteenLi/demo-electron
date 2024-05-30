@@ -8,8 +8,12 @@
     "noImplicitAny": true,
     "sourceMap": true,
     "baseUrl": ".",
+    "jsx": "react-jsx",
     "outDir": "dist",
     "moduleResolution": "node",
     "resolveJsonModule": true
+  },
+  "rules": {
+    "no-empty-interface": false
   }
 }
